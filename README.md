@@ -1,6 +1,6 @@
 #A Mobile Algorithm Game for Education Using Android Studio  
 ---
-(./01.png)  
-(./02.png)  
-(./03.png)  
-(./04.png)  
+![Menu](./02.png)  
+![Play](./01.png)  
+![Ingame](./03.png)  
+![Simulation](./04.png)  
