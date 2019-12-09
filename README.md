@@ -1,5 +1,4 @@
-#A Mobile Algorithm Game for Education Using Android Studio  
----
+# A Mobile Algorithm Game for Education Using Android Studio  
 ![Menu](./02.png)
 ![Play](./01.png)
 ![robot](./05.png)  
@@ -7,8 +6,7 @@
 ![Simulation](./04.png)
 ![result](./06.png)  
   
-#Program Stacks
----
+# Program Stacks  
 + JAVA  
 + PHP  
 + MySQL  
