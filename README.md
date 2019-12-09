@@ -10,5 +10,5 @@
 #Program Stacks
 ---
 *JAVA  
-*PHP 1  
-*CAFE24 2
+*PHP  
+*CAFE24 Host server  
