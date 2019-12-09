@@ -1,6 +1,6 @@
 #A Mobile Algorithm Game for Education Using Android Studio  
 ---
-../01.png  
-../02.png  
-../03.png  
-../04.png  
+../capstone/01.png  
+../capstone/02.png  
+../capstone/03.png  
+../capstone/04.png  
