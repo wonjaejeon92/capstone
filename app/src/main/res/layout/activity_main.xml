@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gamelogo2"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/BtnPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/button_borderline2"
+        android:drawableLeft="@drawable/icon_play"
+        android:drawablePadding="18dip"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="50dp"
+        android:text="플레이"
+        android:textColor="#000000"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/BtnProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/button_borderline2"
+        android:drawableLeft="@drawable/icon_profile"
+        android:drawablePadding="30dp"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="50dp"
+        android:text="프로필"
+        android:textColor="#000000"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/BtnSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/button_borderline2"
+        android:drawableLeft="@drawable/icon_settings"
+        android:drawablePadding="30dip"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="50dp"
+        android:text="설정"
+        android:textColor="#000000"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/BtnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/button_borderline2"
+        android:drawableLeft="@drawable/icon_signout"
+        android:drawablePadding="18dp"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="45dp"
+        android:text="로그아웃"
+        android:textColor="#000000"
+        android:textSize="40dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/BtnMail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_borderline2"
+            android:drawableLeft="@drawable/icon_mail"
+            android:drawablePadding="15dp"
+            android:gravity="left|center_vertical"
+            android:text="메일"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

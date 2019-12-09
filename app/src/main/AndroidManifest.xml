@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="e.t.gameworkshop">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_gamelogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".CompeteUserActivity"></activity>
+        <activity
+            android:name=".SimulationActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Popup_GameModeActivity"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".Popup_Script_ConditionActivity"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".Popup_Script_MoveActivity"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".Popup_ConnectActivity"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".Popup_GameEndActivity"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".Popup_SetValueActivity"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Popup_MailActivity"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".Popup_SettingActivity"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".Popup_ProfileActivity"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".Arrange.Game_ArrangeActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PlayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Arrange.Stage_ArrangeActivity"
+            android:screenOrientation="portrait" />
+
+        <service android:name=".AudioService_GameBGM" />
+        <service android:name=".AudioService_MainBGM" />
+        <service android:name=".AudioService_Click" />
+        <service android:name=".AudioService_GameEnd" />
+    </application>
+
+</manifest>

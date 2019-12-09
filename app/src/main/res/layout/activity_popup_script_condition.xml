@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="510dp"
+    android:layout_height="wrap_content"
+    android:background="#eeeeee"
+    android:orientation="vertical">
+
+    <!-- 타이틀바 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/TextName"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#ff7a00"
+            android:gravity="center"
+            android:text="조건문"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <!-- //end 타이틀바 -->
+
+    <!-- Notice -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/SpinIF"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp" />
+
+            <Button
+                android:id="@+id/BtnChange"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/button_borderline2"
+                android:text="변환" />
+
+            <Button
+                android:id="@+id/BtnAnd"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_borderline2"
+                android:text="그리고" />
+
+            <Button
+                android:id="@+id/BtnOr"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/button_borderline2"
+                android:text="또는" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/SpinLeft"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center" />
+
+            <Spinner
+                android:id="@+id/SpinCompare"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center" />
+
+            <Spinner
+                android:id="@+id/SpinRight"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/BtnAdd"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_borderline2"
+                android:text="추가" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listCondition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <!-- Notice -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#66bdbdbd" />
+
+</LinearLayout>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_borderline_left"
+    android:orientation="vertical"
+    tools:context=".Arrange.FragmentScript">
+
+    <!--<TextView
+        android:id="@+id/Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/BtnCommand"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:background="@drawable/button_borderline"
+            android:gravity="center"
+            android:text="명령"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/BtnCondition"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:background="@drawable/button_borderline"
+            android:gravity="center"
+            android:text="조건"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/BtnModify"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:background="@drawable/button_borderline"
+            android:gravity="center"
+            android:text="수정"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/BtnBack"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:background="@drawable/button_borderline"
+            android:gravity="center"
+            android:text="나가기"
+            android:textColor="#ED4C00"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LayoutCommand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/BtnMove"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:background="@drawable/button_borderline"
+            android:gravity="center"
+            android:text="이동하기"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/BtnPick"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:background="@drawable/button_borderline"
+            android:gravity="center"
+            android:text="집어들기"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/BtnPut"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:background="@drawable/button_borderline"
+            android:gravity="center"
+            android:text="내려놓기"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LayoutCondition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/BtnIF"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:background="@drawable/button_borderline"
+            android:gravity="center"
+            android:text="조건"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/BtnFor"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:background="@drawable/button_borderline"
+            android:gravity="center"
+            android:text="반복"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/BtnWhile"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:background="@drawable/button_borderline"
+            android:gravity="center"
+            android:text="조건반복"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LayoutModify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/BtnShift"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:background="@drawable/button_borderline"
+            android:gravity="center"
+            android:text="이동"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/BtnShift2"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:background="@drawable/button_borderline"
+            android:gravity="center"
+            android:text="범위이동"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/BtnDelete"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:background="@drawable/button_borderline"
+            android:gravity="center"
+            android:text="삭제"
+            android:textColor="#ED4C00"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/BtnDelete2"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:background="@drawable/button_borderline"
+            android:gravity="center"
+            android:text="범위삭제"
+            android:textColor="#ED4C00"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/layout_borderline_top"
+        android:orientation="horizontal">
+
+        <ListView
+            android:id="@+id/listScript"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#66bdbdbd" />
+
+</LinearLayout>

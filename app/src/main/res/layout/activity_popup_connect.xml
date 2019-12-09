@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="#eeeeee"
+    android:orientation="vertical">
+
+    <!-- 타이틀바 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_borderline_selected2"
+            android:gravity="center"
+            android:onClick="mOnConfirm"
+            android:text="확인"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/button_borderline2"
+            android:gravity="center"
+            android:text="연결"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+    </LinearLayout>
+    <!-- //end 타이틀바 -->
+
+        <!-- Notice -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="2000dp"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/listConnect"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+
+        </FrameLayout>
+    <!-- Notice -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#66bdbdbd" />
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#eeeeee"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content">
+
+    <!-- 타이틀바 -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="게임 모드"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:background="#B2CCFF"
+            android:layout_width="match_parent"
+            android:layout_height="53dp" />
+    </LinearLayout>
+    <!-- //end 타이틀바 -->
+
+    <!-- 본문 -->
+    <LinearLayout
+        android:padding="24dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/BtnSingle"
+            android:drawableLeft="@drawable/icon_single"
+            android:text="싱글"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:padding="16dp"
+            android:gravity="center"
+            android:background="#FAED7D"
+            android:layout_width="match_parent"
+            android:layout_height="53dp" />
+
+        <Button
+            android:id="@+id/BtnCompete"
+            android:drawableLeft="@drawable/icon_compete"
+            android:text="대전"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:padding="16dp"
+            android:gravity="center"
+            android:background="#FFC19E"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:onClick="mOnCompete"/>
+
+    </LinearLayout>
+    <!-- 본문 -->
+
+    <View
+        android:background="#66bdbdbd"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+</LinearLayout>

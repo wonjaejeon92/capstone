@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Condition_Left">
+        <item>벽</item>
+        <item>로봇</item>
+        <item>물건</item>
+        <item>저장고</item>
+        <item>장애물</item>
+    </string-array>
+    <string-array name="Condition_Compare">
+        <item>==</item>
+        <item>≠</item>
+        <item>></item>
+        <item>>=</item>
+        <item> </item>
+    </string-array>
+    <string-array name="Condition_Right">
+        <item>벽</item>
+        <item>로봇</item>
+        <item>물건</item>
+        <item>저장고</item>
+        <item>장애물</item>
+    </string-array>
+
+</resources>
